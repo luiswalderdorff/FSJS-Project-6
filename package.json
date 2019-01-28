@@ -1,0 +1,24 @@
+{
+  "name": "fsjs-project-6",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/luiswalderdorff/FSJS-Project-6.git"
+  },
+  "author": "Luis Walderdorff",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/luiswalderdorff/FSJS-Project-6/issues"
+  },
+  "homepage": "https://github.com/luiswalderdorff/FSJS-Project-6#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "pug": "^2.0.3"
+  }
+}

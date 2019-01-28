@@ -1,0 +1,44 @@
+{
+  "projects": [
+    { "id": 0,
+      "project_name": "A Random Quote Generator",
+      "description": "A JavaScript Program, which shows random quotes",
+      "technologies": ["JavaScript"],
+      "live_link": "https://luiswalderdorff.github.io/FSJS-Project-1/",
+      "github_link": "https://github.com/luiswalderdorff/FSJS-Project-1/",
+      "image_urls": ["/static/images/projects/project1.1.png", "/static/images/projects/project1.2.png"]
+    },
+    { "id": 1,
+      "project_name": "List Pagination and Filtering",
+      "description": "A list of students, which automaticially gets divided into seperate pages, with a search function",
+      "technologies": ["JavaScript"],
+      "live_link": "https://luiswalderdorff.github.io/FSJS-Project-2/",
+      "github_link": "https://github.com/luiswalderdorff/FSJS-Project-2/",
+      "image_urls": ["/static/images/projects/project2.1.png", "/static/images/projects/project2.2.png", "/static/images/projects/project2.3.png"]
+    },
+    { "id": 2,
+      "project_name": "Interactive Form",
+      "description": "A Interactive Form, that makes sure that no incorrect information is entered",
+      "technologies": ["JavaScript", "Regex"],
+      "live_link": "https://luiswalderdorff.github.io/FSJS-Project-3/",
+      "github_link": "https://github.com/luiswalderdorff/FSJS-Project-3/",
+      "image_urls": ["/static/images/projects/project3.1.png", "/static/images/projects/project3.2.png", "/static/images/projects/project3.3.png"]
+    },
+    { "id": 3,
+      "project_name": "OOP Game Show App",
+      "description": "A browser based word guessing game",
+      "technologies": ["JavaScript", "OOP"],
+      "live_link": "https://luiswalderdorff.github.io/FSJS-Project-4/",
+      "github_link": "https://github.com/luiswalderdorff/FSJS-Project-4/",
+      "image_urls": ["/static/images/projects/project4.1.png", "/static/images/projects/project4.2.png", "/static/images/projects/project4.3.png"]
+    },
+    { "id": 4,
+      "project_name": "Public API Requests",
+      "description": "A Employee Directory, which communicates with a third party API",
+      "technologies": ["JavaScript", "API"],
+      "live_link": "https://luiswalderdorff.github.io/FSJS-Project-5/",
+      "github_link": "https://github.com/luiswalderdorff/FSJS-Project-5/",
+      "image_urls": ["/static/images/projects/project5.1.png", "/static/images/projects/project5.2.png"]
+    }
+  ]
+}

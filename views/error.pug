@@ -1,0 +1,7 @@
+extends layout
+
+block content
+  h1= error.message
+  h2= error.status
+  //- Is there a reason to show the stack on a 404 error?
+  pre= error.stack  
