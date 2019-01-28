@@ -28,17 +28,17 @@ app.get("/project/:id", (req, res) => {
 
 
 // How to get both 404 and 500 error to work at the right times?
-// app.use((req, res, next) => {
-//   const err = new Error("Whoops! This page does not exist.");
-//   err.status = 404;
-//   next(err);
-// });
-//
-// app.use((err, req, res, next) => {
-//   res.status(err.status);
-//   res.render("error", { error: err });
-//   next(err);
-// });
+app.use((req, res, next) => {
+  const err = new Error("Whoops! This page does not exist.");
+  err.status = 404;
+  next(err);
+});
+
+app.use((err, req, res, next) => {
+  res.status(err.status);
+  res.render("error", { error: err });
+  next(err);
+});
 
 app.listen(3000, () => {
     console.log('The application is running on localhost:3000!');
