@@ -6,11 +6,7 @@ const app = express();
 app.use("/static", express.static("public"));
 
 app.set('view engine', 'pug');
-// app.use((req, res, next) => {
-//   const err = new Error("You have encountered an error.");
-//   err.status = 500;
-//   next(err);
-// });
+
 
 app.get('/', (req, res) => {
     console.log(projects);
@@ -26,8 +22,6 @@ app.get("/project/:id", (req, res) => {
   res.render("project", { projects, id })
 });
 
-
-// How to get both 404 and 500 error to work at the right times?
 app.use((req, res, next) => {
   const err = new Error("Whoops! This page does not exist.");
   err.status = 404;
